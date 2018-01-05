@@ -1,0 +1,12 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Cargar taula TAULACLIENT
+
+```{r}
+TAULACLIENT <- read.csv("Z:/DEPARTAMENTS/ATENCIO CLIENT/V. EXPORT/DOCUMENTACIO/MIQUEL - MISCELLANIA/TAULES-DINAMIQUES/TAULACLIENT.csv", sep=";")
+View(TAULACLIENT)
+```
+
